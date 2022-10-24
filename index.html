@@ -12,8 +12,13 @@
             table {
                 padding: 1px 7px;
             }
+            table > tr.overskrift {
+                width: fit-content;
+            }
             table > th {
                 font-size: 3rem;
+                display: grid;
+                grid-column: span 2;
             }
             tr:nth-child(even) {
                 background-color: springgreen;
@@ -23,9 +28,6 @@
                 background-color: blue;
                 font-size: 3rem;
                 color: white;
-            }
-            table > tr.overskrift {
-                width: fit-content;
             }
         </style>
     </head>
